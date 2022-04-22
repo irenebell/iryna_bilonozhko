@@ -15,9 +15,3 @@ def fizzbuzz(n):
 
 fizzbuzz(15)
 
-
-
-
-
-
-
