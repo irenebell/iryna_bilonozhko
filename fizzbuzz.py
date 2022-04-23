@@ -13,4 +13,4 @@ def fizzbuzz(n):
     return new_array
 
 
-fizzbuzz(15)
+fizzbuzz(int(input("Enter the number: ")))
