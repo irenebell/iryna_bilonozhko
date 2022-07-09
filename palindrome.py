@@ -1,10 +1,10 @@
 def palindrome(n):
-    n = str(n).lower()
+    n = str(n).lower().replace(' ', '').replace(',', '').replace("'", '')
     if n == n[::-1]:
-        print('It\'s palindrome')
+        print("Yes, it's a palindrome")
         return True
     else:
-        print('No')
+        print("No, it's not a palindrome")
         return False
 
-palindrome(123321)
+palindrome(555676555)
